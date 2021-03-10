@@ -1,6 +1,5 @@
 package beyond.gilded.rose;
 
-import com.sun.media.sound.RealTimeSequencerProvider;
 import org.approvaltests.Approvals;
 import org.approvaltests.combinations.CombinationApprovals;
 import org.junit.jupiter.api.Test;
