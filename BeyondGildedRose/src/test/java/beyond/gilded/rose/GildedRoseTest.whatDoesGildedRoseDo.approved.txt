@@ -1,0 +1,1 @@
+[Item{name='hammer', sellIn=-1, quality=0, type='weapon', weight=0, value=0, owner=Character{name='fred', gender='M', level=0, skillClass='warrior', race='elf'}, realm=Realm{name='Atlantis'}}]
