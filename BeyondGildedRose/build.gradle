@@ -15,6 +15,10 @@ plugins {
 
 group 'beyond.gilded.rose' // added for pitest
 
+jacoco{
+    toolVersion = "0.8.6"
+}
+
 pitest {
     junit5PluginVersion = '0.12' // added for pitest
     mutators = ['DEFAULTS', 'REMOVE_CONDITIONALS']
@@ -40,4 +44,8 @@ test {
 
 jacocoTestReport {
     dependsOn test
+    reports {
+        xml.enabled true
+        csv.enabled true
+    }
 }

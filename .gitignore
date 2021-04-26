@@ -20,5 +20,5 @@ build
 # Approvals
 *.received.txt
 bin
-.settings
+# .settings
 .DS_Store
