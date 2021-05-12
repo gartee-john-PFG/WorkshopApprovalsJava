@@ -22,3 +22,6 @@ build
 bin
 # .settings
 .DS_Store
+out/
+**/.project
+**/.classpath
